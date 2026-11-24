@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "email": "bea@gmail.com",
+      "name": "bea",
+      "passwordHash": "e78a95106fe1640311e08336125c06d8:282b9c8c747ca3be52ea645b33a1e6d2b99aae5aafe35d3f91b63767dd05c1db34e58b524b9a1679e421a8446ad972901f1f03e057cdd635e8cb39a283abd20a",
+      "createdAt": "2026-10-01T12:50:11.825Z",
+      "accountType": "personal",
+      "onboardingComplete": true,
+      "priority": "Guardar para uma meta"
+    },
+    {
+      "id": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+      "email": "yohana@gmail.com",
+      "name": "Yohana",
+      "passwordHash": "86befcc17b47bf8819e85a8766ece47f:af47c640d4a95bfe5f7f0088f8a997382b6ab3c1b84b28fb98fe6bd43e090450a8339c8c0cd35b0e492d487e01ee7297fae0951708383db5bee67d1b18c8ef5d",
+      "createdAt": "2026-10-22T14:03:07.464Z",
+      "accountType": "personal",
+      "onboardingComplete": true,
+      "priority": "Guardar para uma meta"
+    }
+  ],
+  "profiles": {
+    "e6ae7fc7-dab2-414b-9b6b-c391d54ba511": {
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "currency": "BRL",
+      "monthlyIncome": 2500,
+      "createdAt": "2026-10-01T12:50:11.825Z",
+      "updatedAt": "2026-10-01T12:50:47.293Z"
+    },
+    "2745c405-dfc0-4c19-a708-3076dc7ddddb": {
+      "userId": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+      "currency": "BRL",
+      "monthlyIncome": 0,
+      "createdAt": "2026-10-22T14:03:07.464Z",
+      "updatedAt": "2026-10-22T14:03:20.308Z"
+    }
+  },
+  "transactions": [
+    {
+      "id": "ff0112a5-de1e-41bc-9e84-32cac6a8ec36",
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "type": "income",
+      "description": "Renda mensal inicial",
+      "amount": 2500,
+      "category": "Salário",
+      "date": "2026-10-01",
+      "recurring": true,
+      "frequency": "monthly",
+      "createdAt": "2026-10-01T12:50:47.293Z"
+    },
+    {
+      "id": "1bc96970-314d-49e7-835f-d9f4ff51aabf",
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "type": "expense",
+      "description": "Salário",
+      "amount": 50,
+      "category": "Lazer",
+      "date": "2026-10-01",
+      "recurring": false,
+      "createdAt": "2026-10-01T12:51:48.026Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "f84fec8c-d9f4-4704-8b59-485483447272",
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "name": "Bali",
+      "target": 13000,
+      "saved": 5000,
+      "deadline": "2029-10-01",
+      "category": "Reserva",
+      "color": "#2F5BFF",
+      "createdAt": "2026-10-01T12:52:31.108Z",
+      "updatedAt": "2026-10-01T13:02:57.442Z"
+    },
+    {
+      "id": "1b964729-bac5-4506-affb-1a2ad49307a7",
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "name": "Moto",
+      "target": 18,
+      "saved": 8,
+      "deadline": "2028-03-23",
+      "category": "Veículo",
+      "color": "#2F5BFF",
+      "createdAt": "2026-10-01T12:58:20.413Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "18347af5-163b-46a1-bfb8-3d229d7f771b",
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "type": "account_created",
+      "createdAt": "2026-10-01T12:50:11.825Z",
+      "metadata": {
+        "source": "register"
+      }
+    },
+    {
+      "id": "f5b5fff9-3fa1-41fc-aec4-51c29c80f60e",
+      "userId": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+      "type": "onboarding_completed",
+      "createdAt": "2026-10-01T12:50:47.293Z"
+    },
+    {
+      "id": "9976525e-06cb-4887-bd6e-8d4edaf430e8",
+      "userId": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+      "type": "account_created",
+      "createdAt": "2026-10-22T14:03:07.464Z",
+      "metadata": {
+        "source": "register"
+      }
+    },
+    {
+      "id": "7b155ccf-f355-4e5e-b493-a8f7808beeb4",
+      "userId": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+      "type": "onboarding_completed",
+      "createdAt": "2026-10-22T14:03:17.906Z"
+    },
+    {
+      "id": "ef026f0b-6aed-4e89-be55-004ffdc3c7ab",
+      "userId": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+      "type": "onboarding_completed",
+      "createdAt": "2026-10-22T14:03:20.308Z"
+    }
+  ],
+  "sessions": {
+    "f62f4cbb35b226ee8aa5ec5b15ac00ab3765eb07ca8bd75b16b554c4d79a87f8": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+    "7c625d15290b9bed681f0411f7acd9fc42662346954b4a7411d781a77a498f8f": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+    "64b36c86208fb83d3573f5c2039b77489e584156737ddf9a400968146f0e7854": "e6ae7fc7-dab2-414b-9b6b-c391d54ba511",
+    "86f0d46eeca0c246dccc35a7904393334e5fef7691e82bc3238baf50354ef312": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+    "c1f6858191c18eaa58d1b8a2418601cdb700d2bb68539f2e0399b155b8252e9e": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+    "cdb43b1016dbbebc88cb1dc0d1718c61ec1e2f924b6e6451b74c0344f4980195": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+    "89c4a4673782d0daba1a157107100c237ba94cf14a0085a7419f867f998156ee": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+    "546189af3216537bd4d6b8ddeb183883e25162b5a8911175f35368490caed7f3": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+    "dda7cf5fcab5450d3019ad59a6d3dcf8906ffd5f550c9fa1b1ffb457a9507b19": "2745c405-dfc0-4c19-a708-3076dc7ddddb",
+    "f9afa6ab609a8c30efee6119c1ef73db69162e91a3d2546e14a664a988c738d0": "2745c405-dfc0-4c19-a708-3076dc7ddddb"
+  }
+}

@@ -1,0 +1,2 @@
+import { redirect } from 'next/navigation'; import { currentUser } from '@/lib/auth'; import AppShell from '@/components/AppShell'; import ScoreClient from '@/components/ScoreClient'; import FinWiseAssistant from '@/components/FinWiseAssistant';
+export default async function Score(){if(!(await currentUser()))redirect('/login');return <AppShell title="FinWise Score" back><ScoreClient/><FinWiseAssistant context="general"/></AppShell>}

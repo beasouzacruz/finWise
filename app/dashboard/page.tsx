@@ -1,0 +1,2 @@
+import { redirect } from 'next/navigation'; import { currentUser } from '@/lib/auth'; import AppShell from '@/components/AppShell'; import DashboardClient from '@/components/DashboardClient'; import InsightsClient from '@/components/InsightsClient';
+export default async function Dashboard() { const u = await currentUser(); if (!u) redirect('/login'); if (!u.onboardingComplete) redirect('/onboarding'); return <AppShell title={`Olá, ${u.name.split(' ')[0]}`}><DashboardClient /><div className="mt-5"><InsightsClient /></div></AppShell> }

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{box-sizing:border-box} body{margin:0;background:#f5f7ff;color:#0d1220;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}.card{border:1px solid #e7eaf3;background:#fff;border-radius:20px;box-shadow:0 8px 24px rgba(20,30,80,.06)}.input{width:100%;border:1px solid #dfe3ee;border-radius:12px;padding:11px 13px;background:#fff;outline:none}.input:focus{border-color:#2f5bff;box-shadow:0 0 0 3px rgba(47,91,255,.1)}.btn{border-radius:12px;padding:11px 16px;font-weight:700;transition:.15s}.btn-primary{background:#2f5bff;color:#fff}.btn-primary:hover{background:#2447db}.btn-secondary{background:#eef2ff;color:#2447db}.btn-danger{background:#fff0f0;color:#c62828}.label{font-size:13px;font-weight:700;margin-bottom:6px;display:block}.sidebar{width:250px;min-height:100vh;background:#0a0f2c;color:#fff}.navitem{display:flex;gap:12px;align-items:center;padding:11px 13px;border-radius:12px;color:#aeb6d3}.navitem.active,.navitem:hover{background:#161f49;color:#fff}@media(max-width:900px){.sidebar{width:72px}.sidebar .navtext,.sidebar .brandtext{display:none}.navitem{justify-content:center}.mainwrap{margin-left:72px!important}}@media(max-width:640px){.sidebar{display:none}.mainwrap{margin-left:0!important}.mobile-nav{display:flex!important}}
+
+:focus-visible{outline:2px solid #2f5bff;outline-offset:2px}
+.btn:disabled{opacity:.6;cursor:not-allowed}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

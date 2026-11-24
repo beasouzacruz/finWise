@@ -1,0 +1,1 @@
+import{redirect}from'next/navigation';import{currentUser}from'@/lib/auth';import AppShell from'@/components/AppShell';import BudgetClient from'@/components/BudgetClient';export default async function Page(){if(!(await currentUser()))redirect('/login');return <AppShell title="Orçamento" back><BudgetClient/></AppShell>}

@@ -1,0 +1,1 @@
+import{redirect}from'next/navigation';import{currentUser}from'@/lib/auth';import AppShell from'@/components/AppShell';import SettingsClient from'@/components/SettingsClient';export default async function Page(){const u=await currentUser();if(!u)redirect('/login');return <AppShell title="Configurações" back><SettingsClient user={u}/></AppShell>}
